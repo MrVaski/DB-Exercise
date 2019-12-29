@@ -1,10 +1,22 @@
+
 package pl.edu.wszib.model;
 
 public class Product {
-    public int productID;
-    public String productName;
-    public String productCategory;
-    public double productPrice;
+    private int productID;
+    private String productName;
+    private String productCategory;
+    private double productPrice;
+
+    public Product() {
+
+    }
+
+    public Product(int productID) {
+        this.productID = productID;
+        this.productName = productName;
+        this.productCategory = productCategory;
+        this.productPrice = productPrice;
+    }
 
     public String getProductCategory() {
         return productCategory;
