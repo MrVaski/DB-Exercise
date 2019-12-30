@@ -64,6 +64,7 @@ public class UserInterface {
                     } catch (java.util.InputMismatchException e) {
                         System.out.println("Something went wrong: " + e.toString());
                     }
+                    scanner.nextLine();
                     break;
                 //  Exit program.
                 case "4":
